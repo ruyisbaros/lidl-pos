@@ -19,6 +19,8 @@ module.exports = {
         titleFont: ["Montserrat", "sans-serif"],
       },
       colors: {
+        light_bg_1: "#d4d9e2",
+        light_bg_2: "#363f4b",
         dark_bg_1: "#111B21",
         dark_bg_2: "#202C33",
         dark_bg_3: "#182229",
