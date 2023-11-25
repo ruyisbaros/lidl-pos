@@ -1,18 +1,18 @@
 import React from "react";
-import NavbarMain from "../components/navbar/Navbar";
+import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/footer/Footer";
 import Menu from "../components/navbar/Menu";
 import { Outlet } from "react-router-dom";
 
 const AdminDashboard = () => {
   return (
-    <div className="main">
-      <NavbarMain />
-      <div className="container">
-        <div className="menuContainer">
+    <div className="p-2">
+      <Navbar />
+      <div className="container flex">
+        <div className="menuContainer w-[250px] py-[5px] px-[20px] ">
           <Menu />
         </div>
-        <div className="contentContainer">
+        <div className="contentContainer w-full py-[5px] px-[20px]">
           <Outlet />
         </div>
       </div>
