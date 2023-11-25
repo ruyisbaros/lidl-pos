@@ -7,7 +7,7 @@ const Error = () => {
     <div className="error-container">
       <div className="oops">Oops!</div>
       <p className="not-found">Error 404: Page Not Found!</p>
-      <button className="back-button button" onClick={() => navigate("/home")}>
+      <button className="back-button button" onClick={() => navigate("/")}>
         Back Home
       </button>
     </div>

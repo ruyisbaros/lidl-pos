@@ -21,11 +21,11 @@ const Menu = () => {
   return (
     <div className="">
       <div className="link-item">
-        <span className="item-title inline-flex uppercase text-[12px] p-1 font-thin tracking-wide text-light_color mb-[10px]">
+        <span className="item-title inline-flex uppercase text-[12px] p-1 font-thin tracking-wide  mb-[10px]">
           Main
         </span>
         <ul className="w-full ">
-          <Link to="/home">
+          <Link to="/">
             <li className="flex items-center gap-[10px] p-[10px] hover:bg-light_soft duration-300 rounded-md ">
               <AiOutlineHome />
               <span>Homepage</span>

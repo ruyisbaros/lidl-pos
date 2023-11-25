@@ -7,7 +7,7 @@ import { IoSettingsOutline } from "react-icons/io5";
 import me from "../../assests/bg-removed.png";
 const Navbar = () => {
   return (
-    <div className="w-full sticky top-0 z-[100] bg-light_main flex items-center justify-between px-[2rem] py-[20px]">
+    <div className="navbar w-full sticky top-0 z-[100] bg-light_main flex items-center justify-between px-[2rem] py-[20px]">
       <div className="flex items-center gap-[1rem] font-bold">
         GmbH <span>Inventory Tracking System</span>
       </div>

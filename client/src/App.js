@@ -14,14 +14,15 @@ import Posts from "./pages/Posts";
 import Bills from "./pages/Bills";
 import Notes from "./pages/Notes";
 import Forms from "./pages/Forms";
+import Profile from "./pages/Profile";
 
 const App = () => {
   return (
     <div className="app w-full font-bodyFont2 bg-light_main text-white">
       <ToastContainer position="bottom-center" limit={1} />
       <Routes>
-        <Route path="/home" element={<Home />} />
         <Route path="/" element={<AdminDashboard />}>
+          <Route path="/" element={<Home />} />
           <Route path="/users" element={<Users />} />
           <Route path="/products" element={<Products />} />
           <Route path="/orders" element={<Orders />} />
@@ -29,6 +30,7 @@ const App = () => {
           <Route path="/bills" element={<Bills />} />
           <Route path="/notes" element={<Notes />} />
           <Route path="/forms" element={<Forms />} />
+          <Route path="/profile" element={<Profile />} />
         </Route>
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
