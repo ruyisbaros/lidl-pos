@@ -1,12 +1,17 @@
 import React from "react";
 import TopBox from "../components/home/TopBox";
 import ChartBox from "../components/home/ChartBox";
+import BarChartBox from "../components/home/BarChartBox";
 import {
+  barChartBoxRevenue,
+  barChartBoxVisit,
   chartBoxConversion,
   chartBoxProduct,
   chartBoxRevenue,
   chartBoxUser,
 } from "../utils/data";
+import PieChartBox from "../components/home/PieChartBox";
+import BigChartBox from "../components/home/BigChartBox";
 
 const Home = () => {
   return (
@@ -21,7 +26,9 @@ const Home = () => {
         {" "}
         <ChartBox dt={chartBoxRevenue} />
       </div>
-      <div className="box box4"> box4</div>
+      <div className="box box4">
+        <PieChartBox />
+      </div>
       <div className="box box5">
         <ChartBox dt={chartBoxProduct} />
       </div>
@@ -29,9 +36,15 @@ const Home = () => {
         {" "}
         <ChartBox dt={chartBoxConversion} />
       </div>
-      <div className="box box7">box7</div>
-      <div className="box box8">box8</div>
-      <div className="box box9">box9</div>
+      <div className="box box7">
+        <BigChartBox />
+      </div>
+      <div className="box box8">
+        <BarChartBox dt={barChartBoxVisit} />
+      </div>
+      <div className="box box9">
+        <BarChartBox dt={barChartBoxRevenue} />
+      </div>
     </div>
   );
 };

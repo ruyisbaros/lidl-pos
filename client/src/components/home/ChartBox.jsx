@@ -8,7 +8,7 @@ const ChartBox = ({ dt }) => {
       <div className="boxInfo">
         <div className="title">
           <img src={dt.icon} alt="" />
-          <span>{dt.title}</span>
+          <span style={{ color: " #d4d9e2" }}>{dt.title}</span>
         </div>
         <h1 className="chartNumber">{dt.number}</h1>
         <Link to={`/${dt.dataKey}`} style={{ color: `${dt.color}` }}>

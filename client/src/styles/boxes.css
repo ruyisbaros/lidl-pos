@@ -106,3 +106,69 @@
 .chartText .duration {
   font-size: 12px;
 }
+
+/* BarChart Box */
+
+.barChart {
+  width: 100%;
+  height: 100%;
+}
+.barChart h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* Pie ChartBox */
+.pieChartBox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.pieChartBox h1 {
+  font-size: 22px;
+  font-weight: 600;
+}
+.chartPie {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.options {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 14px;
+}
+.options .option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+.opTitle {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.opDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+/* Big ChartBox */
+.bigChartBox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.chartBig {
+  width: 100%;
+  height: 300px;
+}
