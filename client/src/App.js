@@ -18,11 +18,11 @@ import Profile from "./pages/Profile";
 
 const App = () => {
   return (
-    <div className="app w-full font-bodyFont2 bg-light_main text-white">
+    <div className="app">
       <ToastContainer position="bottom-center" limit={1} />
       <Routes>
         <Route path="/" element={<AdminDashboard />}>
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/users" element={<Users />} />
           <Route path="/products" element={<Products />} />
           <Route path="/orders" element={<Orders />} />

@@ -1,0 +1,42 @@
+.pictureContainer {
+  margin-top: 8px;
+  align-content: center;
+  color: #e9edef;
+}
+.pictureTitle {
+  font-size: 14px;
+  line-height: 20;
+  font-weight: bold;
+  letter-spacing: 0.025em;
+}
+.blobImg {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.changePicture {
+  width: 20px;
+  margin-top: 8px;
+  padding: 0 4px;
+  color: red;
+  background: #182229;
+  border-radius: 6px;
+  font-size: 12px;
+  line-height: 16;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.changeInput {
+  width: 100%;
+  height: 48px;
+  background: #182229;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}

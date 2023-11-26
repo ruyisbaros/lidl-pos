@@ -30,29 +30,19 @@ const Picture = ({ blobPicture, setBlobPicture }) => {
     inputRef.current.click();
   };
   return (
-    <div className="mt-8 content-center dark:text-dark_text_1 space-y-1">
-      <label htmlFor="picture" className="text-sm font-bold tracking-wide">
+    <div className="pictureContainer ">
+      <label htmlFor="picture" className="pictureTitle ">
         Picture (optional)
       </label>
       {blobPicture ? (
         <div>
-          <img
-            className="w-20 h-20 object-cover rounded-md shadow-md "
-            src={blobPicture}
-            alt="profile"
-          />
-          <div
-            className="w-20 mt-2 py-1 text-red-600 dark:bg-dark_bg_3 rounded-md text-xs cursor-pointer flex items-center justify-center"
-            onClick={handleChangePic}
-          >
+          <img className="blobImg " src={blobPicture} alt="profile" />
+          <div className="changePicture" onClick={handleChangePic}>
             Remove
           </div>
         </div>
       ) : (
-        <div
-          className="w-full h-12 dark:bg-dark_bg_3 rounded-md cursor-pointer font-bold flex items-center justify-center"
-          onClick={() => inputRef.current.click()}
-        >
+        <div className="changeInput" onClick={() => inputRef.current.click()}>
           Upload Picture
         </div>
       )}

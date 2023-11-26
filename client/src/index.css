@@ -19,16 +19,6 @@ img {
 li {
   list-style: none;
 }
-.contentContainer {
-  flex-grow: 1;
-}
-
-/* Home */
-
-.item-title {
-  border-bottom: 2px groove #384256;
-  color: #d4d9e2;
-}
 
 /* Styles Import */
 @import url("./styles/app.css");
@@ -40,3 +30,4 @@ li {
 @import url("./styles/navbar.css");
 @import url("./styles/errorPage.css");
 @import url("./styles/sidebarMenu.css");
+@import url("./styles/picture.css");

@@ -6,13 +6,13 @@ import { Outlet } from "react-router-dom";
 
 const AdminDashboard = () => {
   return (
-    <div className=" min-w-full">
+    <div className="adminDash">
       <Navbar />
-      <div className="w-full flex mt-4 px-2">
-        <div className="menuContainer w-[250px] py-[5px] px-[20px] ">
+      <div className="wrapperContent">
+        <div className="menuContainer">
           <Menu />
         </div>
-        <div className="contentContainer py-[5px] px-[20px] flex-grow-1">
+        <div className="contentContainer">
           <Outlet />
         </div>
       </div>
