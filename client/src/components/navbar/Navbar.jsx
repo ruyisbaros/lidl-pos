@@ -4,7 +4,7 @@ import { AiOutlineAppstore } from "react-icons/ai";
 import { FaExpand } from "react-icons/fa";
 import { FaRegBell } from "react-icons/fa6";
 import { IoSettingsOutline } from "react-icons/io5";
-import me from "../../assests/bg-removed.png";
+import me from "../../assets/bg-removed.png";
 const Navbar = () => {
   return (
     <div className="navbar w-full sticky top-0 z-[100] bg-light_main flex items-center justify-between px-[2rem] py-[20px]">

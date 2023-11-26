@@ -19,7 +19,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Menu = () => {
   return (
-    <div className="">
+    <div className="menu-cont">
       <div className="link-item">
         <span className="item-title">Main</span>
         <ul className="menuLists ">

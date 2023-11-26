@@ -20,6 +20,18 @@ li {
   list-style: none;
 }
 
+/* Custom scroll bar */
+.scrollBar::-webkit-scrollbar {
+  width: 5px;
+}
+.scrollBar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollBar::-webkit-scrollbar-thumb {
+  background: #444e54;
+  border-radius: 3px;
+}
+
 /* Styles Import */
 @import url("./styles/app.css");
 @import url("./styles/adminDash.css");
@@ -31,3 +43,4 @@ li {
 @import url("./styles/errorPage.css");
 @import url("./styles/sidebarMenu.css");
 @import url("./styles/picture.css");
+@import url("./styles/boxes.css");
